@@ -1,0 +1,21 @@
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 6,    //specify version of JavaScript
+    "sourceType": "module",  // vs. "script" - how code is arranged
+    "ecmaFeatures": {
+	
+    },
+  },
+  "env": {  //environment defines global variables
+    "browser": true,
+    "node": true
+  },
+  "plugins": [
+    
+  ],
+  "rules": {
+    "quotes": [2, "single"],
+	"indent": ["warn",2]
+  }
+}

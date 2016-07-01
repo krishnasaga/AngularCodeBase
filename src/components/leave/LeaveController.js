@@ -1,0 +1,1 @@
+class LeaveController {    constructor(){    this.message = 'Leave';  }  }export default LeaveController;
